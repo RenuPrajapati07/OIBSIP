@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Poppins:wght@200&display=swap');
+:root {
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background: #700B97;
+    font-family: var(--font-style);
+}
+
+#title {
+    color: #fff;
+    font-family: var(--font-style);
+    font-size: 45px;
+    padding-left: 400px;
+}
+
+form {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(34, 1, 1, 0.63);
+    padding: 50px;
+    border-radius: 8px;
+}
+
+div{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+div label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div input{
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+div input[type="radio"],
+div input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.label-style {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+div input[type="text"]:focus{
+    border: 2px solid green;
+}
+
+.btn-submit, .btn-cancel{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 20px; 
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+    background: #4CAF50;
+}
+
+.btn-cancel:hover{
+    cursor: pointer;
+    background: rgba(255, 0, 0, 0.781);
+}

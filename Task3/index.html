@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./mystyle.css" >
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey For Music Platform</h1>
+    </header>
+    <form id="form1">
+        <div>
+            <label for="name" class="label-style">Name</label>
+            <input type="text" id="name" placeholder="Enter your name"/>
+        </div>
+        <div>
+            <label for="email" class="label-style">Email</label>
+            <input type="email" id="email" placeholder="Enter your valid email"/>
+        </div>
+        <div>
+            <label class="label-style">Select your Gender</label>
+            <label for="male">
+                <input type="radio" id="male" name="gender"> Male</input>
+            </label>
+            <label for="female">
+                <input type="radio" id="female" name="gender"> Female</input>
+            </label>
+        </div>
+        <div>
+            <label class="label-style">1. Do you have an account with any online music streaming platforms?</label>
+            <label for="yes">
+                <input type="radio" id="yes" name="music"> Yes, I do</input>
+            </label>
+            <label for="no">
+                <input type="radio" id="no" name="music"> No, I don't</input>
+            </label>
+        </div>
+
+        <div>
+            <label class="label-style">2. Which online music service have you used the most?
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="check1">
+                <input type="checkbox" name="check"> Spotify</input>
+            </label>
+            <label for="check2">
+                <input type="checkbox" name="check"> YouTube Music</input>
+            </label>
+            <label for="check3">
+                <input type="checkbox" name="check"> Amazon Prime Music</input>
+            </label>
+            <label for="check4">
+                <input type="checkbox" name="check"> Others</input>
+            </label>
+        </div>
+
+        <div>
+            <label class="label-style">3. In a typical day, how likely are you to use the music platform</label>
+            <label for="ext">
+                <input type="radio" id="ext" name="music"> Extremely</input>
+            </label>
+            <label for="mod">
+                <input type="radio" id="mod" name="music"> Moderately</input>
+            </label>
+            <label for="no">
+                <input type="radio" id="no" name="music"> Not at all</input>
+            </label>
+        </div>
+
+        <div>
+            <label class="label-style">4. How often you download the music offline?</label>
+            <label for="ext">
+                <input type="radio" id="ext" name="music"> Extremely often</input>
+            </label>
+            <label for="mod">
+                <input type="radio" id="mod" name="music"> Moderately often</input>
+            </label>
+            <label for="no">
+                <input type="radio" id="no" name="music"> Not at all</input>
+            </label>
+        </div>
+
+        <div>
+            <label class="label-style">5. In a typical day how many hours do you spend listening to a music on specific music platform?</label>
+            <label for="1">
+                <input type="radio" id="1" name="music"> 0 - 1</input>
+            </label>
+            <label for="2">
+                <input type="radio" id="2" name="music"> 2 - 3</input>
+            </label>
+            <label for="3">
+                <input type="radio" id="3" name="music"> 4 - 5</input>
+            </label>
+            <label for="4">
+                <input type="radio" id="4" name="music"> More than 5</input>
+            </label>
+        </div>
+
+        <div>
+            <label class="label-style">6. How often you purchase subscription on any music platform?</label>
+            <label for="ext">
+                <input type="radio" id="ext" name="music"> Extremely often</input>
+            </label>
+            <label for="mod">
+                <input type="radio" id="mod" name="music"> Moderately often</input>
+            </label>
+            <label for="no">
+                <input type="radio" id="no" name="music"> Not at all</input>
+            </label>
+        </div>
+
+        <div>
+            <label for="musc1" class="label-style">7. In a typical week how many songs do you download from the internet</label>
+            <input type="number" id="musc1" placeholder="Enter in number"/>
+        </div>
+
+        <div>
+            <label class="label-style">8. Do you prefer buying subscription on any music service platform?</label>
+            <label for="yes">
+                <input type="radio" id="yes" name="music"> Yes</input>
+            </label>
+            <label for="no">
+                <input type="radio" id="no" name="music"> No</input>
+            </label>
+        </div>
+
+        <div>
+            <label for="musc2" class="label-style">9. What kind of music genre you like the most?</label>
+            <input type="text" id="musc2" placeholder="Enter your response"/>
+        </div>
+
+        <div>
+            <label for="musc3" class="label-style">10. Who is your favourite singer artist</label>
+            <input type="text" id="musc3" placeholder="Enter your response"/>
+        </div>
+
+        <div>
+            <label class="label-style">11. Which online music service would you recommend to your friend?
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="check1">
+                <input type="checkbox" name="check"> Spotify</input>
+            </label>
+            <label for="check2">
+                <input type="checkbox" name="check"> YouTube Music</input>
+            </label>
+            <label for="check3">
+                <input type="checkbox" name="check"> Amazon Prime Music</input>
+            </label>
+            <label for="check4">
+                <input type="checkbox" name="check"> Others</input>
+            </label>
+        </div>
+
+        <div class="btn">
+            <button type="submit" class="btn-submit">SUBMIT</button>
+            <button type="reset" class="btn-cancel">CANCEL</button>
+        </div>
+    </form>
+</body>
+</html>
