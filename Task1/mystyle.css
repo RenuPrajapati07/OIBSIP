@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Poppins:wght@200&display=swap');
+:root {
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background: #FAF9F6;
+}
+
+.icon {
+    color: #04ebb9;
+    font-size: 28px;
+    margin-right: 700px;
+    margin-top: 10px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #0B2447;
+  font-family: var(--font-style);
+  font-weight: 800;
+  
+}
+
+li{
+    display: inline-flex;
+    justify-content: right;
+    float: right;
+    margin-right: 40px;
+    align-items: center;
+}
+
+nav a {
+  color: #04ebb9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover{
+  color: white;
+}
+
+nav a:active{
+  background-color: #04AA6D;
+  color: white;
+}
+
+#sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head1 {
+    padding: 112px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: var(--font-style);
+    color: #04ebb9;
+    background: #0B2447;
+   
+}
+
+h4{
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sec-2 {
+    padding-left: 80px;
+    font-size: 40px;
+    float: right;
+    font-family: var(--font-style);
+    color: #000;
+    font-weight: 1000;
+}
+
+.img2 {
+    height: 100%;
+    width: 400px;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+.btn-submit {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background-color: #0B2447;
+}
+
+#unique-img {
+    position: relative;
+    left: 600px;
+    height: 600px;
+    width: 600px;
+}
+
+#sofa-img {
+    position: absolute;
+    left: 80px;
+    top: 1230px;
+    height: 600px;
+    width: 700px;  
+}
+
+p{
+    font-family: var(--font-style);
+    font-size: 36px;
+    color: #000;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.div1 {
+    padding: 40px;
+    background-color: #0B2447;
+}
+
+.btn-read {
+    position: absolute;
+    left: 100px;
+    top: 1150px;
+    background-color: #000;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-read:hover {
+    color: #000;
+    background-color: #04ebb9;
+}
+
+h1{
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 1000;
+    font-family: var(--font-style);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.sec3{
+    padding-top: 40px;
+}
+
+.cards {
+    float: left;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.cards-img {
+    color: #0B2447;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.card1 {
+    float: left;
+    padding: 18px;
+    width: 22%;
+}
+
+p{
+    margin-left: 60px;
+}
+
+p:hover{
+    cursor: pointer;
+}
+
+.contact-div{
+    margin: 0px;
+    position: absolute;
+    top: 2450px;
+    width: 100%;
+    height: 550px;
+    background: url(assets/stairs-design.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+.contact-div .user-box input{
+    position: relative;
+    width: 200%;
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 30px;
+    border: 2px solid #0B2447;
+}
+
+.contact-div .user-box-msg input{
+    width: 200%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #0B2447;
+    color: #000;
+    margin-bottom: 30px;
+    
+}
+
+.contact-info {
+    float: left;
+    padding: 50px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+
+#cont-data{
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: lighter;
+    color: #000;
+}
+
+#social-icon {
+    height: 120px;
+    margin-left: 60px;
+}
+
+.form1 {
+    float: right;
+    padding-right: 400px;
+    padding-top: 60px;
+}
+
+.btn-send {
+    background-color: #0B2447;
+    border: none;
+    color: white;
+    padding: 12px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn-send:hover{
+    cursor: pointer;
+    color: #04ebb9;
+}
+
+footer {
+    background: #0B2447;
+    position: absolute;
+    top: 3000px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
